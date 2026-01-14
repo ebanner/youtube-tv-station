@@ -1,6 +1,6 @@
-# youtube-tv-station
+# lex-fridman-tv
 
-Turn any YouTube channel into a TV station.
+Lex Fridman YouTube channel into a TV station.
 
 ## Running
 
