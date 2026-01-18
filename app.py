@@ -36,20 +36,19 @@ def index():
     </head>
     <body>
         <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/14OPT6CcsH4?start={{OFFSET}}&autoplay=1&mute=1"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen>
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/14OPT6CcsH4?start={{OFFSET}}&autoplay=1&mute=1"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
         </iframe>
     </body>
     </html>
 
     """.replace("{{OFFSET}}", str(offset))
-
 
     return Response(html, mimetype="text/html")
 
